@@ -1,0 +1,32 @@
+.mmodal {
+	max-width: 450px;
+	min-width: 300px;
+	background: #fff;
+	margin: 300px auto 0 auto;
+	font-family: Tahoma;
+	overflow: hidden;
+}
+.mmodal .mmodal-title {
+	width: 95%;
+	margin: 0 auto;
+	font-size: 14pt;
+	padding-top: 10px;
+}
+.mmodal .mmodal-body {
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.mmodal .mmodal-buttons {
+	width: 100%;
+	margin: 0 auto;
+	border-top: 1px solid #666;
+}
+.mmodal .mmodal-buttons .mmodal-button {
+	width: 100%;
+	height: 25px;
+	padding: 5px 0 5px 0;
+	cursor: pointer;
+	text-align: center;
+	float: left;
+}
