@@ -10,29 +10,24 @@
 </body>
 <script type="text/javascript">
 var m = {
-	title: 'Супер заголовок',
-	body: '<p>Вы правда желаете нажимать эти кнопочки ?</p>',
+	title: 'Super title',
+	body: '<p>Do u want to click em ?</p>',
 	buttons: [
 		{
-			handler: function(a){
-				console.log(a);
+			handler: function(m){
+				console.log(m);
 			},
-			value: 'В консоль'
+			value: 'Console!'
 		},
 		{
-			handler: function(a){
-				console.log(a);
+			handler: function(m){
+				m.hide();
 			},
-			value: 'В консоль'
-		},
-		{
-			handler: function(a){
-				a.hide();
-			},
-			value: 'Закрыть'
+			value: 'Close'
 		}
 	]
 }
 var a = new Mmodal(m);
+a.show(); //and also a.hide() to close ;)
 </script>
 </html>
