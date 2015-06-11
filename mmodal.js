@@ -35,7 +35,7 @@
 	_title.innerHTML = _cfg.title;
 	_title.setAttribute('class','Mmodal-title');
 	_modal.appendChild(_title);
-	_modal.titl = function(i){
+	_modal._title = function(i){
 		if(i!=undefined){
 			this.childNodes[0].innerHTML = i;
 		}else{
@@ -47,7 +47,7 @@
 		_body.innerHTML = _cfg.body;
 		_body.setAttribute('class','Mmodal-body');
 		_modal.appendChild(_body);
-		_modal.body = function(i){
+		_modal._body = function(i){
 			if(i!=undefined){
 				this.childNodes[1].innerHTML = i;
 			}else{
