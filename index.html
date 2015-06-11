@@ -15,12 +15,14 @@ var m = {
 	buttons: [
 		{
 			handler: function(m){
+				/* m - is a marker for modal dom object, like `this` */
 				console.log(m);
 			},
 			value: 'Console!'
 		},
 		{
 			handler: function(m){
+				/* m - is a marker for modal dom object, like `this` */
 				m.hide();
 			},
 			value: 'Close'
