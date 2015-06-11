@@ -2,7 +2,7 @@
 	max-width: 450px;
 	min-width: 300px;
 	background: #fff;
-	margin: 300px auto 0 auto;
+	margin: 150px auto 0 auto;
 	font-family: Tahoma;
 	overflow: hidden;
 	box-shadow: 0 0 2px 2px #444;
@@ -30,10 +30,11 @@
 	height: 30px;
 	padding: 12px 0 0 0;
 	cursor: pointer;
-	text-align: center;
 	float: left;
-	font-size: 12pt;
+	text-align: center;
 	line-height: 1;
+	font-size: 12pt;
+	font-weight: normal;
 }
 .Mmodal .Mmodal-buttons .Mmodal-button:hover {
 	background: #F2F2F2;
