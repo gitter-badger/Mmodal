@@ -8,8 +8,7 @@
 	if(_hover==undefined){
 		_hover = document.createElement('div');
 		_hover.setAttribute('style','position:fixed;top:0;left:0;width:100%;height:100%;z-index:10000;display:none;');
-		_hover.style.backgroundImage = 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAALSURBVAgdY1DaBwABBQDhT76AKwAAAABJRU5ErkJggg==")';
-		_hover.style.background = 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAALSURBVAgdY1DaBwABBQDhT76AKwAAAABJRU5ErkJggg==")';
+		_hover.style.background = 'rgba(0,0,0,0.7)';
 		_hover.setAttribute('id','Mmodal');
 		document.body.appendChild(_hover);
 	}
