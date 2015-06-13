@@ -58,7 +58,7 @@
 	_buttons.setAttribute('class','Mmodal-buttons');
 	if(!_cfg.buttons){
 		var _btn = document.createElement('div');
-		_btn.innerHTML = 'Да';
+		_btn.innerHTML = 'Close';
 		_btn.setAttribute('class','Mmodal-button');
 		_btn.onclick = function(){_modal.hide()};
 		_buttons.appendChild(_btn);
