@@ -12,7 +12,7 @@
 .Mmodal .Mmodal-title {
 	width: 95%;
 	margin: 0 auto;
-	font-size: 16pt;
+	font-size: 14pt;
 	text-align: center;
 	padding: 10px 0;
 	color: #333;
@@ -22,6 +22,7 @@
 	margin: 0 auto;
 	padding: 10px 0;
 	color: #333;
+	font-size: 16pt;
 }
 .Mmodal .Mmodal-buttons {
 	width: 100%;
