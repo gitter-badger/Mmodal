@@ -14,11 +14,13 @@
 	font-size: 16pt;
 	text-align: center;
 	padding: 10px 0;
+	color: #333;
 }
 .Mmodal .Mmodal-body {
 	width: 95%;
 	margin: 0 auto;
 	padding: 10px 0;
+	color: #333;
 }
 .Mmodal .Mmodal-buttons {
 	width: 100%;
@@ -36,6 +38,7 @@
 	line-height: 1;
 	font-size: 12pt;
 	font-weight: normal;
+	color: #333;
 }
 .Mmodal .Mmodal-buttons .Mmodal-button:hover {
 	background: #F2F2F2;
